@@ -1,21 +1,10 @@
 # Image Classification for Real & Counterfeit Colombian Peso Banknotes
+<p align="center">
+<img src="https://www.leftovercurrency.com/app/uploads/2019/03/100000-colombian-pesos-banknote-carlos-lleras-restrepo-obverse-1.jpg" width="800" height="300">
+</p>
 
 # Business Problem:
 Colombia has been fighting a massive  issue of people printing and using counterfeit currency. With the large amount of counterfeit currency that is currently in circulation and the widespread use of smartphones,  there is a widespread need for an application that uses a Deep Learning Algorithm to accurately determine the authenticity of Colombian Pesos in real-time.
-
-# Scholarly Article Reference:
-Title: Fake Banknote Recognition Using Deep Learning
- ## Url:
-  https://www.mdpi.com/2076-3417/11/3/1281 
- ## Citation:
-  Pachón, C.G.; Ballesteros, D.M.; Renza, D. Fake Banknote Recognition Using Deep Learning. Appl. Sci. 2021, 11, 1281. https://doi.org/10.3390/app11031281
-
-# Data Source Reference:
-Dataset was sourced from Mendeley Data
-  ## Url:
-  https://data.mendeley.com/datasets/tj8kvrbfz6/2 
-  ## Citation:
-  Pachon Suescun, Cesar; Ballesteros, Dora Maria; Renza, Diego (2021), “Original and counterfeit Colombian peso banknotes”, Mendeley Data, V2, doi: 10.17632/tj8kvrbfz6.2
 
 # Data:
 -Organized into 3 Folders each containing the same 7,280 images  but split using different locations for the Train, Test, and Validation Sets.
@@ -68,9 +57,9 @@ Accuracy Metric Scores:
 The ResNet50 model had the best results in terms of:
   -Accuracy 
   -Speed of convergence. 
-Pixel Intensity: 
-Images containing Fake/Counterfeit Currency had significantly larger mean pixel intensity values than the images containing Real denominations.
 
+Pixel Intensity: 
+-Images containing Fake/Counterfeit Currency had significantly larger mean pixel intensity values than the images containing Real denominations.
 
 
 # Next Steps:
@@ -79,3 +68,16 @@ Images containing Fake/Counterfeit Currency had significantly larger mean pixel 
 -Source data for other currencies due to the issues surrounding counterfeit currency globally.
 
 
+# Scholarly Article Reference:
+Title: Fake Banknote Recognition Using Deep Learning
+ ## Url:
+  https://www.mdpi.com/2076-3417/11/3/1281 
+ ## Citation:
+  Pachón, C.G.; Ballesteros, D.M.; Renza, D. Fake Banknote Recognition Using Deep Learning. Appl. Sci. 2021, 11, 1281. https://doi.org/10.3390/app11031281
+
+# Data Source Reference:
+Dataset was sourced from Mendeley Data
+  ## Url:
+  https://data.mendeley.com/datasets/tj8kvrbfz6/2 
+  ## Citation:
+  Pachon Suescun, Cesar; Ballesteros, Dora Maria; Renza, Diego (2021), “Original and counterfeit Colombian peso banknotes”, Mendeley Data, V2, doi: 10.17632/tj8kvrbfz6.2
