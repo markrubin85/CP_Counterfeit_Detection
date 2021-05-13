@@ -1,5 +1,6 @@
 # CP_Counterfeit_Detection
 Colombia has been fighting a massive  issue of people printing and using counterfeit currency. With the large amount of counterfeit currency that is currently in circulation and the widespread use of smartphones,  there is a widespread need for an application that uses a Deep Learning Algorithm to accurately determine the authenticity of Colombian Pesos in real-time.
+
 Dataset was sourced from Mendeley Data
   https://data.mendeley.com/datasets/tj8kvrbfz6/2 
   Pachon Suescun, Cesar; Ballesteros, Dora Maria; Renza, Diego (2021), “Original and counterfeit Colombian peso banknotes”, Mendeley Data, V2, doi: 10.17632/tj8kvrbfz6.2
